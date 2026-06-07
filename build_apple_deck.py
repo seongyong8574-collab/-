@@ -33,9 +33,9 @@ C = {
     "divider_soft":   "F0F0F0",
 }
 
-# 마루부리(MaruBuri) — 네이버 한글 글꼴. PowerPoint substitutes if absent.
-F_D = "마루부리"   # 헤드라인
-F_T = "마루부리"   # 본문 · UI
+# SF Pro substitute optimized for Korean; PowerPoint substitutes if absent.
+F_D = "Pretendard"   # SF Pro Display
+F_T = "Pretendard"   # SF Pro Text
 
 def rgb(h): return RGBColor.from_string(h)
 
